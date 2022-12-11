@@ -12,13 +12,18 @@ module.exports = {
       }
       command.execute(interaction, client);
     } else if (interaction.isButton()) {
-      const role = interaction.guild.roles.cache.get("1050520147670077520");
-      return interaction.member.roles.add(role).then((member) =>
-        interaction.reply({
-          content: `${role} has been assigned to you.`,
-          ephemeral: true,
-        })
-      );
+      const {customId} = interaction;
+      
+      if(customId == "verify") {
+        const role = interaction.guild.roles.cache.get("1050520147670077520");
+        return interaction.member.roles.add(role).then((member) =>
+          interaction.reply({
+            content: `${role} has been assigned to you.`,
+            ephemeral: true,
+          })
+        );
+      }
+      
     } else {
       return;
     }

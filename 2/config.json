@@ -1,4 +1,9 @@
 {
     "token": "MTA1MDE4MzM0MjQ5MTk2NzU2OQ.GDC05Z.6NNT9FsAdO3IcSKCgzufxxVLO3WbCJidZHYE1c",
-    "mongodb": "mongodb+srv://LezoT:lezot1337@lezotdevelopment.u83ur5n.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb": "mongodb+srv://LezoT:lezot1337@lezotdevelopment.u83ur5n.mongodb.net/?retryWrites=true&w=majority",
+
+    "everyone": "1050498857462661203",
+    "ticketParent": "1051510576959995997",
+    "openticket": "1051510681498816634",
+    "transcipts": "1051510636301009006"
 }
